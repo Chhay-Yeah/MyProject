@@ -1,0 +1,24 @@
+X = (R*cos(t))-(Rr*cos(t+arctan(sin((1-N)*t)/((R/E*N)-cos((1-N)*t)))))-(E*cos(N*t))
+
+Y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/E*N)-cos((1-N)*t)))))+(E*sin(N*t))
+
+R = 65;			%radius of cycloid disc(mm)
+Rr = 4;			%radius of roller(mm)   
+E = Rr/2 = 2;		%offset of input to center(mm)
+N = 31;			%number of roller
+t = 0:2*pi-0.001
+
+X = (168.81/2*cos(t))-(4*cos(t+arctan(sin((1-31)*t)/((168.81/2/2*31)-cos((1-31)*t)))))-(2*cos(31*t))
+
+Y = (-168.81/2*sin(t))+(4*sin(t+arctan(sin((1-31)*t)/((168.81/2/2*31)-cos((1-31)*t)))))+(2*sin(31*t))
+
+inside:
+	Rr*2 + 2*E
+	4*2 + 2*1 = 10
+
+
+
+
+
+
+

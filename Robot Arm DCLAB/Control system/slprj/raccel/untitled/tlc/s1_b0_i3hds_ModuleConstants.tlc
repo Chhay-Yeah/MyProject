@@ -1,0 +1,8 @@
+%implements s1_b0_i3hds_ModuleConstants "C"
+
+%function ModuleConstants(block) Output
+
+
+/* Named constants for MATLAB Function: '<Root>/MATLAB Function' */
+#define f2juajykp0 (-1)
+%endfunction
